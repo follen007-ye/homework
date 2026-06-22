@@ -5,6 +5,7 @@ unsigned long previousMillis = 0;
 int ledState = LOW;
 
 void setup() {
+  Serial.begin(115200);
   pinMode(ledPin, OUTPUT);
 }
 
