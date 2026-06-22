@@ -11,11 +11,11 @@ void setup() {
 void loop() {
   for(int dutyCycle = 0; dutyCycle <= 255; dutyCycle++) {
     ledcWrite(ledPin, dutyCycle);
-    delay(10);
+    delay(12);
   }
   for(int dutyCycle = 255; dutyCycle >= 0; dutyCycle--) {
     ledcWrite(ledPin, dutyCycle);
-    delay(10);
+    delay(12);
   }
   Serial.println("Breathing cycle completed");
 }
