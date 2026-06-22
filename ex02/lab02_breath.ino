@@ -19,3 +19,4 @@ void loop() {
   }
   Serial.println("Breathing cycle completed");
 }
+// 呼吸周期约5.1秒
