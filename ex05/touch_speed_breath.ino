@@ -56,3 +56,4 @@ void loop() {
     delay(delayTime);
   }
 }
+// 档位切换后下一个呼吸周期生效
