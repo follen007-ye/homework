@@ -16,12 +16,12 @@ void loop() {
   for (int duty = 0; duty <= 255; duty++) {
     ledcWrite(LED1_PIN, duty);        // LED1 逐渐变亮
     ledcWrite(LED2_PIN, 255 - duty);  // LED2 逐渐变暗
-    delay(10);
+    delay(8);
   }
   // 从255到0渐减
   for (int duty = 255; duty >= 0; duty--) {
     ledcWrite(LED1_PIN, duty);        // LED1 逐渐变暗
     ledcWrite(LED2_PIN, 255 - duty);  // LED2 逐渐变亮
-    delay(10);
+    delay(8);
   }
 }

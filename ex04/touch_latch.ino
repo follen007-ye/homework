@@ -1,7 +1,7 @@
 // 实验4：触摸自锁开关（带防抖）
 #define TOUCH_PIN 4
 #define LED_PIN   2
-#define THRESHOLD 30   // 根据你的板子实测调整（触摸时值变小）
+#define THRESHOLD 35   // 根据你的板子实测调整（触摸时值变小）
 
 bool ledState = false;          // 当前LED状态
 bool lastTouchState = false;    // 上一次触摸状态（true表示触摸中）

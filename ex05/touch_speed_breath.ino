@@ -1,7 +1,7 @@
 // 实验5：多档位触摸调速呼吸灯
 #define TOUCH_PIN 4
 #define LED_PIN   2
-#define THRESHOLD 30   // 根据实际调整
+#define THRESHOLD 35   // 根据实际调整
 
 const int freq = 5000;
 const int resolution = 8;
