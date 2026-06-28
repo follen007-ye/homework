@@ -65,3 +65,4 @@ void setup() {
 }
 
 void loop() { server.handleClient(); }
+// 刷新间隔改为200ms

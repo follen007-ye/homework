@@ -106,3 +106,4 @@ void loop() {
     ledState = false;
   }
 }
+// 调整触摸阈值，提高灵敏度
